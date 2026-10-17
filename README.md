@@ -1,5 +1,9 @@
 # SyncSpace — Real-Time Collaborative Workspace
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/krishna21-dot/first-hakathon)
+
+**GitHub Repository**: [https://github.com/krishna21-dot/first-hakathon](https://github.com/krishna21-dot/first-hakathon)
+
 A full-stack, real-time multiplayer collaborative web application inspired by `https://codebase-website-formation.onrender.com/?room=3xz5kf`.
 
 Built with **React**, **Vite**, **Tailwind CSS**, **Node.js**, **Express**, **Socket.io**, **Yjs (CRDT)**, and a resilient database layer (**MongoDB** + **Local Persistent Storage**).
