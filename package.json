@@ -1,0 +1,23 @@
+{
+  "name": "syncspace",
+  "version": "1.0.0",
+  "description": "Full-stack real-time collaborative workspace with CRDT live notepad, shared counter, live cursors, shoutouts, polls, quizzes, and canvas whiteboard.",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "build": "npm --prefix client install && npm --prefix client run build && npm --prefix server install",
+    "start": "node server/index.js",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev"
+  },
+  "keywords": [
+    "real-time",
+    "crdt",
+    "yjs",
+    "socket.io",
+    "collaboration",
+    "react",
+    "express"
+  ],
+  "author": "Krishna Balara",
+  "license": "MIT"
+}

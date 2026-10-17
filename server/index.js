@@ -418,6 +418,25 @@ app.get('/api/room/:roomId', async (req, res) => {
   }
 });
 
+// ─── Production Frontend Static Serving (Unified Deployment) ───────
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const CLIENT_DIST = path.join(__dirname, '../client/dist');
+
+app.use(express.static(CLIENT_DIST));
+
+app.get('*', (req, res, next) => {
+  if (req.path.startsWith('/api') || req.path.startsWith('/socket.io')) {
+    return next();
+  }
+  res.sendFile(path.join(CLIENT_DIST, 'index.html'), (err) => {
+    if (err) next();
+  });
+});
+
 // ─── Start Server ─────────────────────────────────────────────────
 const PORT = process.env.PORT || 3001;
 httpServer.listen(PORT, () => {
