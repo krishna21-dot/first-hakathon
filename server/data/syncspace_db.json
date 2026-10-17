@@ -1,0 +1,213 @@
+{
+  "rooms": {
+    "3xz5kf": {
+      "roomId": "3xz5kf",
+      "notepadContent": "Hello from Alice! ",
+      "counterValue": 1,
+      "accentColor": "#10b981",
+      "createdAt": "2026-10-17T17:39:27.376Z",
+      "updatedAt": "2026-10-17T17:43:49.898Z"
+    },
+    "m4m7k0": {
+      "roomId": "m4m7k0",
+      "notepadContent": "\nsag",
+      "counterValue": 3,
+      "accentColor": "#10b981",
+      "createdAt": "2026-10-17T17:45:20.736Z",
+      "updatedAt": "2026-10-17T17:53:53.148Z"
+    }
+  },
+  "editHistory": [
+    {
+      "roomId": "3xz5kf",
+      "userId": "user-alice",
+      "userName": "Alice",
+      "diff": "Updated notepad",
+      "fullText": "Hello from Alice! ",
+      "timestamp": "2026-10-17T17:43:49.898Z"
+    },
+    {
+      "roomId": "m4m7k0",
+      "userId": "2e7d3062-9025-4b15-8aa1-405d78f2177a",
+      "userName": "jkhkd",
+      "diff": "Updated notepad",
+      "fullText": "sdjhkhf",
+      "timestamp": "2026-10-17T17:45:27.589Z"
+    },
+    {
+      "roomId": "m4m7k0",
+      "userId": "2e7d3062-9025-4b15-8aa1-405d78f2177a",
+      "userName": "jkhkd",
+      "diff": "Updated notepad",
+      "fullText": "bdsjkjdksjfkjf\n\nknkjesf\nlkjjfs\n",
+      "timestamp": "2026-10-17T17:46:42.762Z"
+    },
+    {
+      "roomId": "m4m7k0",
+      "userId": "2e7d3062-9025-4b15-8aa1-405d78f2177a",
+      "userName": "jkhkd",
+      "diff": "Updated notepad",
+      "fullText": "\n",
+      "timestamp": "2026-10-17T17:46:49.429Z"
+    },
+    {
+      "roomId": "m4m7k0",
+      "userId": "2e7d3062-9025-4b15-8aa1-405d78f2177a",
+      "userName": "jkhkd",
+      "diff": "Updated notepad",
+      "fullText": "\nsagyjgj",
+      "timestamp": "2026-10-17T17:49:48.468Z"
+    },
+    {
+      "roomId": "m4m7k0",
+      "userId": "2e7d3062-9025-4b15-8aa1-405d78f2177a",
+      "userName": "jkhkd",
+      "diff": "Updated notepad",
+      "fullText": "\nsag",
+      "timestamp": "2026-10-17T17:53:40.375Z"
+    }
+  ],
+  "counterLogs": [
+    {
+      "_id": "cl_1792259028393_kweigi",
+      "roomId": "3xz5kf",
+      "userId": "user-alice",
+      "userName": "Alice",
+      "actionType": "+1",
+      "newValue": 1,
+      "timestamp": "2026-10-17T17:43:48.393Z"
+    },
+    {
+      "_id": "cl_1792259388414_c1dh6e",
+      "roomId": "m4m7k0",
+      "userId": "2e7d3062-9025-4b15-8aa1-405d78f2177a",
+      "userName": "jkhkd",
+      "actionType": "+1",
+      "newValue": 1,
+      "timestamp": "2026-10-17T17:49:48.414Z"
+    },
+    {
+      "_id": "cl_1792259388716_awfcc1",
+      "roomId": "m4m7k0",
+      "userId": "2e7d3062-9025-4b15-8aa1-405d78f2177a",
+      "userName": "jkhkd",
+      "actionType": "+1",
+      "newValue": 2,
+      "timestamp": "2026-10-17T17:49:48.716Z"
+    },
+    {
+      "_id": "cl_1792259388948_7mt891",
+      "roomId": "m4m7k0",
+      "userId": "2e7d3062-9025-4b15-8aa1-405d78f2177a",
+      "userName": "jkhkd",
+      "actionType": "+1",
+      "newValue": 3,
+      "timestamp": "2026-10-17T17:49:48.948Z"
+    }
+  ],
+  "shoutouts": [
+    {
+      "_id": "sh_1792259028397_mb9asv",
+      "roomId": "3xz5kf",
+      "userId": "user-bob",
+      "userName": "Bob",
+      "message": "Great collaboration team!",
+      "timestamp": "2026-10-17T17:43:48.397Z"
+    },
+    {
+      "_id": "sh_1792259395985_tj3v7f",
+      "roomId": "m4m7k0",
+      "userId": "2e7d3062-9025-4b15-8aa1-405d78f2177a",
+      "userName": "jkhkd",
+      "message": "hgjd",
+      "timestamp": "2026-10-17T17:49:55.985Z"
+    }
+  ],
+  "polls": [
+    {
+      "_id": "poll_1792259028398_8tn8o2",
+      "roomId": "3xz5kf",
+      "creatorId": "user-alice",
+      "creatorName": "Alice",
+      "question": "Should we launch SyncSpace today?",
+      "options": [
+        {
+          "text": "Definitely Yes! 🚀",
+          "votes": [
+            {
+              "userId": "user-bob",
+              "userName": "Bob"
+            }
+          ]
+        },
+        {
+          "text": "Need more coffee ☕",
+          "votes": []
+        }
+      ],
+      "isActive": true,
+      "createdAt": "2026-10-17T17:43:48.398Z"
+    },
+    {
+      "_id": "poll_1792259442748_9q4q4w",
+      "roomId": "m4m7k0",
+      "creatorId": "2e7d3062-9025-4b15-8aa1-405d78f2177a",
+      "creatorName": "jkhkd",
+      "question": "sjnknskdl",
+      "options": [
+        {
+          "text": "sdkjds",
+          "votes": [
+            {
+              "userId": "2e7d3062-9025-4b15-8aa1-405d78f2177a",
+              "userName": "jkhkd"
+            }
+          ]
+        },
+        {
+          "text": "sdnk",
+          "votes": []
+        }
+      ],
+      "isActive": true,
+      "createdAt": "2026-10-17T17:50:42.748Z"
+    }
+  ],
+  "quizzes": [
+    {
+      "_id": "quiz_1792259060067_2bto8k",
+      "roomId": "3xz5kf",
+      "creatorId": "tester",
+      "creatorName": "Tester",
+      "title": "Code Trivia",
+      "questions": [
+        {
+          "question": "What does CRDT stand for?",
+          "options": [
+            "Conflict-free Replicated Data Type",
+            "Continuous Real-time Data Transfer",
+            "Centralized Realtime Data Table"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "currentQuestionIndex": 0,
+      "scores": [
+        {
+          "userId": "tester",
+          "userName": "Tester",
+          "score": 1,
+          "answers": [
+            {
+              "questionIndex": 0,
+              "selectedIndex": 0,
+              "correct": true
+            }
+          ]
+        }
+      ],
+      "isActive": true,
+      "createdAt": "2026-10-17T17:44:20.067Z"
+    }
+  ]
+}
